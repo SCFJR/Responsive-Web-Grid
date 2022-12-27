@@ -206,6 +206,7 @@ body {
     /* .menu {
         display: none;
     } */
+
     nav ul {
         display: flex;
         justify-items: end;
