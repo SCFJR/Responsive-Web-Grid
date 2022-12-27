@@ -176,7 +176,7 @@ body {
   
 .menu-toogle input:checked ~ span:nth-child(2) {
     transform: rotate(45deg) translate(-1px, -1px);
-    background-color: black;
+    background-color: white;
 }
   
 .menu-toogle input:checked ~ span:nth-child(3) {
@@ -190,7 +190,7 @@ body {
   
 .menu-toogle input:checked ~ span:nth-child(4) {
     transform: rotate(-45deg) translate(-1px, 0);
-    background-color: black;
+    background-color: white;
 }
   
 
@@ -203,9 +203,9 @@ body {
 }
 
 @media (max-width: 768px) {
-    .menu {
+    /* .menu {
         display: none;
-    }
+    } */
     nav ul {
         display: flex;
         justify-items: end;
@@ -250,6 +250,6 @@ body {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 576px) {
     
 }
