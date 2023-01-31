@@ -15,6 +15,9 @@ body {
     margin: 55px;
     font-size: 28px;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    /* background-image: url(img/milkyway.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 /* container */
@@ -198,26 +201,56 @@ body {
 /* Services */
 .services {
     display: grid;
-    margin-top: 10px;
-    gap: 10px;
+    margin-top: 20px;
+    gap: 7px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.icon {
+/* .icon {
     background-image: url();
-}
+} */
 
 .service {
-    padding: 5px;
+    padding: 8px;
     background-color: white;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .service h3 {
-    font-size: 30px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-family: 'Opens Sans', sans-serif;
 }
 
 .service p {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.service .icon1 img {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service .icon2 img {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service .icon3 img {
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Responsive Area */
@@ -266,7 +299,7 @@ body {
     
     .menu-toogle {
         position: absolute;
-        left: 700px;
+        left: 715px;
         top: 72px;
         display: flex;
         justify-items: end;
@@ -277,6 +310,7 @@ body {
         justify-content: space-between;
         margin-bottom: 5px;
     }
+
 }
 
 @media (max-width: 600px) {
@@ -303,7 +337,7 @@ body {
 
     .menu-toogle {
         position: absolute;
-        left: 658px;
+        left: 650px;
         top: 70px;
         margin-left: -160px;
         /* margin-top: -57px; */
@@ -322,6 +356,8 @@ body {
     }
 
     .services .service {
-        margin-top: 5px;
+        /* border: 2px solid black; */
+        display: grid;
+        margin-top: 7px;
     }
 }
