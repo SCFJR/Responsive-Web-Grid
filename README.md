@@ -1,3 +1,3 @@
 # Responsive-Web-Grid
-## Blom Kelar wleowleowleowleo
-<supscript> NJIR BARU INGET ADA NI REPO, GASKEN LANJUTIN </supscript>
+## Dah Kelar Coi
+<supscript> REPO BAGUS TAPI NAVBAR USELESS</supscript>
